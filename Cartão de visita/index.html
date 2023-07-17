@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olá Tailwind!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#f2dae7'
+                    },
+                    fontFamily: {
+                        titulo: ['Vast Shadow', 'cursive']                    
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-gradient-to-r from-pink-200 to-slate-400 ">
+
+    <main class=" flex flex-col lg:flex-row justify-center items-center w-4/5 mx-auto my-40 p-12 shadow-2xl rounded-lg ">
+        <img class="w-2/6 lg:w-1/5 m-6 rounded-lg" src="./img/fe391dac-e276-4757-b245-86a546249d4e.jpg" alt="Logo confeitaria">
+        <div>
+        <h1 class="text-4xl lg:text-4xl font-black text-center text-primary font-titulo ">Paloma Gabrielle</h1>
+        <p class="text-2xl lg:text-2xl  text-center text-secondary ">
+           Desenvolvedora front-end 
+        </p>
+        <ul class="flex justify-center items-center gap-3 mb-4 ">
+            <li><a class="hover:font-bold hover:text-primary" href="https://cursos.alura.com.br/user/Pgoliveira20">Alura</a></li>
+            <li><a class="hover:font-bold hover:text-primary " href="https://www.linkedin.com/in/paloma-oliveira-a96422235/">Linkedin</a></li>
+            <li><a class="hover:font-bold hover:text-primary" href="https://github.com/PalomaOliveiraa">Github</a></li>
+          </ul>
+    </div>
+
+    </main>
+
+</body>
+
+</html>
